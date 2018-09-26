@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Portfoliorails</title>
+    <title>Jen Hilton</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +10,11 @@
   </head>
 
   <body>
+  <%= link_to "Home", root_path %>
+  <%= link_to "About", about_path %>
+  <%= link_to "Portfolio", portfolio_path %>
+  <%= link_to "Skills", skills_path %>
+  <%= link_to "Contact", contact_path %>
     <%= yield %>
   </body>
 </html>
